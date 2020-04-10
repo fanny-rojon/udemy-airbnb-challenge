@@ -57,7 +57,7 @@ nav {
   font-size: 16px;
 }
 
-.search a {
+a {
   text-decoration: none;
 }
 
@@ -90,12 +90,18 @@ nav {
 
 /*HEADER*/
 
+.header {
+  height: 500px;
+  position: relative;
+}
+
 #grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 2px;
   list-style: none;
+  padding-left: 0;
 }
 
 #main {
@@ -103,10 +109,6 @@ nav {
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
-}
-
-#grid {
-  padding-left: 0;
 }
 
 #grid li {
@@ -128,15 +130,25 @@ nav {
    opacity:0.6;  filter:alpha(opacity=30);
 }
 
-#secondary{
-  position: relative;
+.btn-group-social {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+
 }
 
 .btn-social {
   background-color: white;
   padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 14px;
+  color: #484848;
+  border-radius: 5px;
+}
+
+.photos {
   position: absolute;
-  top: 10px;
+  bottom: 20px;
   right: 10px;
 }
 

@@ -4,6 +4,9 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+hr {
+  border: 0.5px solid #C9DAEA;
+}
 
 /*NAV*/
 
@@ -152,7 +155,115 @@ a {
   right: 10px;
 }
 
+/*INFOS*/
 
+.container {
+  padding: 20px 100px;
+  color: #484848;
+  display: flex;
+  justify-content: space-around;
+}
+
+.apt-info {
+  width: 50%;
+}
+
+.apt-header {
+  display: flex;
+}
+
+.apt-title {
+  padding-right: 50px;
+}
+
+.apt-title h1 {
+  font-size: 32px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.apt-title p {
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.owner {
+  text-align: center;
+}
+
+.owner p {
+  font-size: 14px;
+  margin: 0;
+}
+
+
+.avatar {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.apt-summary {
+  display: flex;
+}
+
+.apt-summary p {
+  font-size: 16px;
+  font-weight: lighter;
+  padding-right: 14px;
+  margin: 0;
+}
+
+.apt-description {
+  margin: 30px 0;
+}
+
+
+.apt-amenities {
+}
+
+.apt-amenities ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.amenities {
+  display: flex;
+  justify-content: space-around;
+}
+
+.amenities li {
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.amenities p {
+  font-size: 16px;
+}
+
+/*BOOKING*/
+
+.apt-booking {
+  width: 30%;
+  /*height: ;*/
+  background-color: white;
+  border: 0.5px solid #C9DAEA;
+}
+
+.apt-booking a {
+  text-decoration: none;
+  color: white;
+  background-color: #07EBE5;
+  padding: 10px 30px;
+}
+
+/*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #grid {
+    display: none;
+  }
+
+}*/
 
 
 

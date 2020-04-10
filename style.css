@@ -215,12 +215,25 @@ a {
   margin: 0;
 }
 
-.apt-description {
+.details {
   margin: 30px 0;
 }
 
+.details h3 {
+  font-size: 16px;
+}
 
-.apt-amenities {
+.details p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.details .fas {
+  font-size: 14px;
+}
+
+.apt-description {
+  margin: 30px 0;
 }
 
 .apt-amenities ul {

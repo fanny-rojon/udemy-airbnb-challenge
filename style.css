@@ -105,6 +105,10 @@ nav {
   grid-row-end: 3;
 }
 
+#grid {
+  padding-left: 0;
+}
+
 #grid li {
   height: 100%;
 }
@@ -124,7 +128,17 @@ nav {
    opacity:0.6;  filter:alpha(opacity=30);
 }
 
+#secondary{
+  position: relative;
+}
 
+.btn-social {
+  background-color: white;
+  padding: 10px 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
 
 
 
